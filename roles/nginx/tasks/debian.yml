@@ -1,0 +1,14 @@
+---
+- name: debian | installing nginx
+  apt:
+    name: nginx
+    state: present
+    update_cache: yes
+  become: true
+
+- name: debian | ensuring nginx is started and enabled on boot
+  service:
+    name: nginx
+    state: started
+    enabled: true
+  become: true

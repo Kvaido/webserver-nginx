@@ -1,0 +1,8 @@
+all:
+  hosts:
+    websrv2: 
+      10.0.0.100:
+  vars:
+    ansible_port: 22
+    ansible_user: vagrant
+    ansible_ssh_pass: vagrant
