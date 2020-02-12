@@ -1,5 +1,5 @@
 ---
-- name: Install Ngnix and Filebeat on WEB server
+- name: Install Ngnix on WEB server
   hosts: all
 
   roles:
