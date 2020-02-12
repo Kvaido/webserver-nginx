@@ -1,8 +1,6 @@
 ---
 - name: Install Ngnix and Filebeat on WEB server
   hosts: all
-  become: true
 
   roles:
   - role: nginx
-    state: present
